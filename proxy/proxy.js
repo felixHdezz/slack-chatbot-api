@@ -19,7 +19,7 @@ const ReplSetServers = require('mongodb').ReplSetServers,
     Grid = require('mongodb').Grid,
     Code = require('mongodb').Code;
 const app = express();
-const webhookurl = "https://hooks.slack.com/services/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";
+const webhookurl = "url";
 const mongoUrl = 'url dbMongo';
 var vars = {
     config: {
